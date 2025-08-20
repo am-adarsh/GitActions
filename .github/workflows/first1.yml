@@ -1,0 +1,13 @@
+name: "Workflow to show New Commit"
+
+on: 
+    push:
+
+jobs:
+    Show_NewCommit:
+        runs-on: ubuntu-latest
+        steps:
+        - name: "New Workflow"
+          run: echo "New Commit"
+
+
