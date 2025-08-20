@@ -3,11 +3,11 @@ name: "Multi Event Pipeline / Workflow"
 on:
     push:
         branches:
-            - master
+            - test
 
 jobs:
     on-Push:
         runs-on: ubuntu-latest
         steps:
-            - name: "Running on Push from Master"
-              run: echo "Push from Master"
+            - name: "Running on Push from test"
+              run: echo "Push from Test"
